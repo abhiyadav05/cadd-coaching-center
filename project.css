@@ -1,0 +1,134 @@
+
+:root{
+
+    /* font family */
+    --ff-arimo: 'Arimo', sans-serif;
+    --ff-roboto: 'Roboto', sans-serif;
+    --ff-roboto-condensed: 'Roboto Condensed', sans-serif;
+    --ff-saira-condensed: 'Saira Condensed', sans-serif;
+
+    /* font weights */
+    --fw-regular: 400;
+    --fw-bold: 500;
+    --fw-extra-bold: 700;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+html{
+    font-size: 16px;
+}
+
+.container{
+    padding: 0.5rem;
+    border: 3px solid green;
+    background-color: greenyellow;
+
+}
+
+.inner-container{
+   
+    border: 3px solid lightgreen;
+    background-color: #fff;
+    padding: 1.7rem 1rem 0.2rem;
+    border-top-right-radius: 2rem;
+    position: relative;
+    
+}
+.up-p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(6, 6, 209);
+    padding: 0.2rem 1rem 0.2rem 0.2rem;
+    z-index: 99;
+    border-top-right-radius: 25px ; 
+    border-bottom-right-radius: 25px;    
+    color: #fff;
+}
+.p2{
+    
+    color: rgb(121, 210, 57);;
+    font-family: var(--ff-roboto);
+    font-weight: var(--fw-regular);
+}
+img{
+    width: 100%;
+
+}
+
+img[alt="cadstudio logo"]{
+    width: 95%;
+}
+
+
+img[alt="Home img"]{
+    border: 2px solid green;
+    border-radius:1rem;
+}
+
+h3{
+    font-family: var(--ff-arimo-condensed);
+    color: rgb(6, 6, 209);
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+    font-weight: var(--fw-extra-bold);
+    
+}
+#hr1{
+    height: 3px;
+    background-color: rgb(6, 6, 209);
+}
+h1{
+    letter-spacing: 0.1rem;
+    
+}
+.blue-heading{
+    color: rgb(15, 77, 212);
+}
+
+.green-heading{
+    color: rgb(121, 210, 57);
+}
+
+#hr2{
+    height: 3px;
+    background-color: rgb(121, 210, 57);
+}
+
+h2{
+    color:rgb(4, 87, 4);
+    font-family: var(--ff-roboto-condensed);
+    font-weight: var(--fw-extra-bold);
+}
+
+.footer{
+    
+    background-color: rgb(6, 6, 209) ;
+    color: #fff;
+}
+.phone-num{
+    font-family: var(--ff-roboto-condensed);
+    font-weight: var(--fw-extra-bold);
+}
+.address{
+    font-family: var(--ff-roboto);
+    font-weight: var(--fw-bold);
+}
+
+@media screen and (min-width: 30em){
+    .container{
+        
+        max-width: 350px;
+    }
+}
